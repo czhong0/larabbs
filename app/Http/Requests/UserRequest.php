@@ -30,7 +30,7 @@ class UserRequest extends FormRequest
             'introduction' => 'max:80',
         ];
     }
-    
+
     public function messages()
     {
         return [
